@@ -138,13 +138,12 @@ a {
     flex-wrap: wrap;
     padding-top: 30px;
     color: rgb(31, 31, 31);
-    justify-content: center;
+   
 
 }
 
 .main-section article {
     padding: 10px;
-    text-align: justify;
     line-height: 150%;
 
 }
@@ -155,47 +154,12 @@ a {
 
 }
 
-#one {
-    border-bottom-style: solid;
-    border-color: rgb(197, 197, 197);
-
-}
 
 #one h2,
 h3 {
     text-align: center;
 }
 
-#bulletin {
-    max-width: 630px;
-}
-
-#politieke-opinie {
-    max-width: 400px;
-}
-
-#LGBTI {
-    max-width: 345px;
-    border-right-style: solid;
-    border-color: rgb(197, 197, 197);
-}
-
-
-#sportminuut {
-    max-width: 345px;
-    border-right-style: solid;
-    border-color: rgb(197, 197, 197);
-}
-
-#vermaak {
-    max-width: 345px;
-    border-right-style: solid;
-    border-color: rgb(197, 197, 197);
-}
-
-#anderkantdiegrens {
-    max-width: 1100px;
-}
 
 footer {
     display: flex;
