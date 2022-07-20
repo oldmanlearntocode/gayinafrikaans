@@ -19,12 +19,9 @@ h1 {
     color: white;
 }
 
-h5 {
-    text-align: center;
-}
 
 p a {
-    color: rgb(31, 31, 31);
+    color: rgb(48, 48, 48);
     line-height: 150%;
     font-family: sans-serif;
     font-size: 18px;

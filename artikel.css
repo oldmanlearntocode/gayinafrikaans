@@ -44,60 +44,6 @@ p a {
 
 /*marquee*/
 
-.news {
-    margin: 0;
-    box-sizing: border-box;
-    height: 5vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.marquee {
-    padding-top: 0.5vw;
-    padding-bottom: 0.5vw;
-    width: 1100vw;
-    height: 5vh;
-    overflow: hidden;
-    position: relative;
-
-}
-
-.marquee-content {
-    list-style-type: none;
-    height: 100%;
-    display: flex;
-    animation: scrolling 45s linear infinite;
-
-}
-
-.marquee-content li {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    white-space: normal;
-    padding-right: 15px;
-    flex-shrink: 0;
-    font-family: sans-serif;
-    color: rgb(31, 31, 31);
-    font-weight: 400;
-}
-
-.marquee-content:hover {
-    animation-play-state: paused;
-}
-
-
-@keyframes scrolling {
-    0% {
-        transform: translateX(3vw);
-    }
-
-    100% {
-        transform: translateX(-210vw);
-        /*set the width of the scroll here*/
-    }
-}
 
 /*nav start*/
 .nav {
